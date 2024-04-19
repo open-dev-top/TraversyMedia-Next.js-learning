@@ -57,7 +57,3 @@ npx serve@latest out
 53:18 - API Routes
 
 59:24 - Using the API Data
-
-```
-
-```
