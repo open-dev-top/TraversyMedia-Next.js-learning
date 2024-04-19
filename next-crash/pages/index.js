@@ -1,4 +1,4 @@
-import Head from "next/head"
+// import Head from "next/head"
 import Image from "next/image"
 import ArticleList from "../components/ArticleList"
 import { server } from "../config"
@@ -7,10 +7,10 @@ export default function Home({ articles }) {
     // console.log(articles)
     return (
         <div>
-            <Head>
+            {/* <Head>
                 <title>WebDev Newz</title>
                 <meta name="keywords" content="web development, programming" />
-            </Head>
+            </Head> */}
             {/* <h1>Welcome to Next.js</h1> */}
             {/* {articles.map((article) => (
                 <h3>{article.title}</h3>

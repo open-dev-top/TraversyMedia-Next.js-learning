@@ -7,7 +7,7 @@ const ArticleItem = ({ article }) => {
         <Link legacyBehavior href="/article/[id]" as={`article/${article.id}`}>
             <a id="link" className={articleStyles.card}>
                 <h3>{article.title} &rarr;</h3>
-                <p>{article.body}</p>
+                <p>{article.excerpt}</p>
             </a>
         </Link>
     )
