@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
+import ArticleList from "../components/ArticleList"
 
 export default function Home({ articles }) {
     // console.log(articles)
@@ -10,9 +11,10 @@ export default function Home({ articles }) {
                 <meta name="keywords" content="web development, programming" />
             </Head>
             {/* <h1>Welcome to Next.js</h1> */}
-            {articles.map((article) => (
+            {/* {articles.map((article) => (
                 <h3>{article.title}</h3>
-            ))}
+            ))} */}
+            <ArticleList articles={articles} />
         </div>
     )
 }
