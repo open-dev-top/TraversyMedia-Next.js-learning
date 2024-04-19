@@ -8,6 +8,12 @@ npx create-next-app@10 .
 npm install --dev prettier
 
 npm run dev
+
+npm run build
+
+npm start
+npx serve@latest out
+
 ```
 
 ## [Next.js Crash Course](https://youtu.be/mTz0GXj8NN0?si=Re9_jJNFVtSooEXC)
